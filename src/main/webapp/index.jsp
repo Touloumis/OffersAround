@@ -17,15 +17,17 @@
         <h1>Welcome to Offers Around.</h1>
         <h3>Find everything near you.</h3>
         <p>Today is <%= date%> </p>
-        <SCRIPT language="JavaScript1.2">
+        <script language="JavaScript1.2">
         function openwindow()
         {
             window.open("About.html","mywindow","menubar=1,resizable=1,width=350,height=250");
         }
-</SCRIPT>
-<P>
-<A href="javascript: openwindow()">Read about the project Offers Around</A>
-</P>
+        </script>
+        <p>
+            <button type="button" onclick='location.href="javascript: openwindow()"'>Read about</button>
+            <a href="javascript: openwindow()">Read about the project Offers Around</A>
+            
+        </p>
 
     </body>
 </html>
