@@ -6,6 +6,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="Stylesheet.css">
         <title>Offers Around</title>
     </head>
     
@@ -14,9 +15,9 @@
         Date date=new Date();
         %>
     <body>
-        <h1>Welcome to Offers Around.</h1>
-        <h3>Find everything near you.</h3>
-        <p>Today is <%= date%> </p>
+        <h1>Welcome to Offers Around</h1>
+        <h3>Find everything near you</h3>
+        <p id="date">Today is <%= date%> </p>
         <script language="JavaScript1.2">
         function openwindow()
         {
@@ -24,8 +25,8 @@
         }
         </script>
         <p>
-            <button type="button" onclick='location.href="javascript: openwindow()"'>Read about</button>
-            <a href="javascript: openwindow()">Read about the project Offers Around</A>
+            <button id="readbutton"  type="button" onclick='location.href="javascript: openwindow()"' >Read about the project</button>
+            
             
         </p>
 
